@@ -1,0 +1,20 @@
+{
+  "regras_perda": [
+    {
+      "nivel_estresse": "Baixo",
+      "perda_percentual": 0.05,
+      "alerta": "Monitoramento necessário. Risco mínimo de perda."
+    },
+    {
+      "nivel_estresse": "Moderado",
+      "perda_percentual": 0.15,
+      "alerta": "ALERTA MODERADO! Perda de produtividade significativa esperada. Considere irrigação suplementar."
+    },
+    {
+      "nivel_estresse": "Alto",
+      "perda_percentual": 0.35,
+      "alerta": "ALERTA CRÍTICO! Risco de perda superior a 30%. Ação imediata (irrigação ou manejo de cultura) é crucial."
+    }
+  ],
+  "custo_medio_feijao_rs_ton": 3500.00
+}
